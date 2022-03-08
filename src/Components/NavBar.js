@@ -1,16 +1,18 @@
-import {HiOutlineSearch} from 'react-icons/hi'
-import 'bootstrap/dist/css/bootstrap.css'
-import { Nav, Navbar} from 'react-bootstrap'
+import { HiOutlineSearch } from "react-icons/hi";
+import "bootstrap/dist/css/bootstrap.css";
+import { Nav, Navbar } from "react-bootstrap";
 
 const NavBar = () => {
-    return (
-        <div className='navbar container'>
-           <Navbar  bg="white" sticky="top" expand="sm" collapseOnSelect>
+  return (
+    <div className="navbar container">
+      <Navbar bg="white" sticky="top" expand="sm" collapseOnSelect>
         <Navbar.Brand>
-            <a href='#'> <img className='img-fluid' src={require('./images/mainlogo.jpg')} /></a>
+          <a href="#">
+            <img className="img-fluid" src={require("./images/mainlogo.jpg")} />
+          </a>
         </Navbar.Brand>
         <Navbar.Toggle className="coloring" />
-        <Navbar.Collapse className='collapse'>
+        <Navbar.Collapse className="collapse">
           <Nav>
             <Nav.Link href="#home">HOME</Nav.Link>
             <Nav.Link href="#pages">PAGES</Nav.Link>
@@ -21,12 +23,14 @@ const NavBar = () => {
             <Nav.Link href="#blog">BLOG</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-           <a> <i><HiOutlineSearch/></i></a>
+        <a>
+          <i>
+            <HiOutlineSearch />
+          </i>
+        </a>
       </Navbar>
- 
-        </div>
-        
-    );
-}
- 
+    </div>
+  );
+};
+
 export default NavBar;
