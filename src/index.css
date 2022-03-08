@@ -790,7 +790,7 @@ line-height: 30px;
     margin-left: 70px;
   }
   .destination{
-    margin-top: 275px;
+    margin-top: px;
     position: relative;
     font-weight:500
   }
@@ -806,22 +806,25 @@ line-height: 30px;
   .links a{
     font-size: 18px;
   }
+  .loginsign{
+    margin-left: 5px;
+  }
 }   
 @media(max-width:992px) {
   .destination{
-    margin-top: 300px;
+    margin-top: 500px;
   }
   .row{
     margin-top: 30px;
   }
   .Recommended-wraper{
-    margin-top: 300px;
+    margin-top: 2000px;
   }
   .traveling{
-    margin-top: 100px;
+    margin-top: 1800px;
   }
   .news-letter{
-    margin-top: 100px;
+    margin-top: 400px;
   }
   .newsletter{
     margin-top: 25px;
@@ -843,6 +846,9 @@ line-height: 30px;
   .info p{
     font-size: 20px;
   }
+  .form-fields button{
+    width: 100%;
+  }
 }
 @media(max-width: 975px) {
   .header {
@@ -856,7 +862,7 @@ line-height: 30px;
     margin-left: 0px;
   }
   .destination{
-    margin-top: 400px;
+    margin-top: 500px;
   }
   .Recommended-wraper{
     margin-top: 2000px;
@@ -869,12 +875,12 @@ line-height: 30px;
     width: 50px;
   }
   .news-letter{
-    margin-top: 0px;
+    margin-top: 300px;
   }
 }
 @media (max-width:900px) {
   .destination{
-    margin-top: 450px;
+    margin-top: 500px;
   }
   .traveling{
     margin-top:1750px;
@@ -883,11 +889,20 @@ line-height: 30px;
     margin-left: 100px;
     padding: 10px;
   }
+  .news-letter{
+    margin-top: 300px;
+  }
 
 }
 @media(max-width: 767px) {
+  .form-fields input{
+    width: 100%;
+  }
+  .banner-description{
+    margin-top: -50px;
+  }
   .destination{
-    margin-top: 300px;
+    margin-top: 500px;
   }
   .contact-header{
     display: none;
@@ -966,9 +981,25 @@ line-height: 30px;
   }
 }
 @media(max-width: 575px) {
+  .social-Links-header{
+    margin-left: 200px;
+    margin-right: auto;
+  }
+  .loginsign{
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+  }
   /* .navbar button{
     margin-left: 100px;
   } */
+  .collapsed{
+    margin-left: 150px;
+  }
+  .search{
+    margin-left: 5px;
+    font-size: 15px;
+  }
   .destination{
     margin-top: 600px;
   }
@@ -1008,7 +1039,7 @@ line-height: 30px;
     margin-right: auto;
   }
   .collapsed{
-    margin-left: 150px;
+    margin-left: 60px;
   }
  .artical-card h3 {
    margin-top: 0px;
@@ -1031,9 +1062,11 @@ line-height: 30px;
 }
 
 @media (max-width:443px) {
-  
+  .destination{
+    margin-top:800px;
+  }
   .collapsed{
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .news-letter{
     margin-top: 100px;
@@ -1057,6 +1090,9 @@ line-height: 30px;
   }
 }
 @media (max-width:381px) {
+  .collapsed{
+    margin-left: 10px;
+  }
   .news-letter{
     margin-top: 150px;
   }
@@ -1078,7 +1114,7 @@ line-height: 30px;
     margin-left: 80px;
   }
   .destination{
-    margin-top: 800px;
+    margin-top: 950px;
   }
   .traveling img{
     height: 50px;
