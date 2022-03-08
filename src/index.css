@@ -32,6 +32,11 @@ code {
 }
 .contact-header a {
   margin-left:5px;
+  text-decoration: none;
+  color:  #94999f;
+}
+.contact-header a:hover{
+  color:  #94999f;
 }
 .contact-header i {
   margin-left: 5px;
@@ -53,9 +58,15 @@ code {
 }
 .loginsign i {
   margin-left: 10px;
+  color: #94999f;
 }
 .loginsign a {
   margin-left: 10px;
+  color: #94999f;
+  text-decoration: none;
+}
+.loginsign a :hover{
+  color: #94999f;
 }
 /* Navbar Css */
 .navbar {
