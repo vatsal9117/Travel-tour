@@ -5,7 +5,7 @@ const Recent = () => {
           <h3>Recent Articles</h3>
         </div>
         <div className="recent-artical-content text-center container">
-          <a href="#">
+          <a href="abc">
             <p>
               Read The Blog<i className="ms-2 bi bi-arrow-right"></i>
             </p>
@@ -18,7 +18,7 @@ const Recent = () => {
                 <img
                   className="card-img"
                   src={require("./images/artical2.jpg")}
-                  alt="Card image"
+                  alt="Card"
                 ></img>
                 <div className="card-img-overlay">
                   <h3>How to travel with paper map</h3>
@@ -33,7 +33,7 @@ const Recent = () => {
                 <img
                   className="card-img"
                   src={require("./images/artical1.jpg")}
-                  alt="Card image"
+                  alt="Card"
                 ></img>
                 <div className="card-img-overlay">
                   <h3>How to travel with paper map</h3>
@@ -48,7 +48,7 @@ const Recent = () => {
                 <img
                   className="card-img"
                   src={require("./images/artical3.jpg")}
-                  alt="Card image"
+                  alt="Card"
                 ></img>
                 <div className="card-img-overlay">
                   <h3>How to travel with paper map</h3>

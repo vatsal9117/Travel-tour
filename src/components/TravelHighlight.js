@@ -11,7 +11,7 @@ const Travel = () => {
           </div>
           <div className="video-link text-center">
             <a href="https://www.youtube.com/watch?v=HODmbzOT288&list=PLNIFTA4Bjp3stwYxIB6Aokpr9bfRQYO73">
-              <img src={require("./images/play-img.png")}></img>
+              <img src={require("./images/play-img.png")} alt="travel-highlight"></img>
             </a>
           </div>
         </div>

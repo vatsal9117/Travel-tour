@@ -5,7 +5,7 @@ const Tours = () => {
           <h3>Popular Tours</h3>
         </div>
         <div className="popular-tour-content text-center">
-          <a href="#">
+          <a href="abc">
             <p>
               View All Popular Tours<i className="ms-2 bi bi-arrow-right"></i>
             </p>
@@ -15,7 +15,7 @@ const Tours = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 mt-5">
             <div className="p-card">
               <div className="card-upper">
-                <img src={require("./images/popular-tour1.jpg")}></img>
+                <img src={require("./images/popular-tour1.jpg")} alt="tour1"></img>
               </div>
               <div className="card-body">
                 <div className="bestseller">
@@ -60,7 +60,7 @@ const Tours = () => {
           <div className="col-lg-4 col-md-12 col-sm-12  mt-5">
             <div className="p-card">
               <div className="card-upper">
-                <img src={require("./images/popular-tour2.jpg")}></img>
+                <img src={require("./images/popular-tour2.jpg")} alt="tour2"></img>
               </div>
               <div className="card-body">
                 <div className="bestseller">
@@ -105,7 +105,7 @@ const Tours = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 mt-5">
             <div className="p-card">
               <div className="card-upper">
-                <img src={require("./images/popular-tour2.jpg")}></img>
+                <img src={require("./images/popular-tour2.jpg")} alt="tour2"></img>
               </div>
               <div className="card-body third">
                 <div className="bestseller">
@@ -155,7 +155,7 @@ const Tours = () => {
               <h2 className="mt-2">Up to 40% Discount!</h2>
               <button className="mt-3">Learn More</button>
               <br></br>
-              <img src={require("./images/discount.png")} className="mt-3"></img>
+              <img src={require("./images/discount.png")} className="mt-3" alt="discount"></img>
               <br></br>
               <small>
                 <sub>*Terms applied</sub>

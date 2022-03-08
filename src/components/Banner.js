@@ -47,7 +47,7 @@ const Banner = () => {
               <div className="col-lg-4">
                 <div className="row">
                   <div className="destination-img col-lg-3 col-md-2 col-sm-2">
-                    <img src={require("./images/banner-discription1.png")}></img>
+                    <img src={require("./images/banner-discription1.png")} alt="discription"></img>
                   </div>
                   <div className="destination-content col-lg-9 col-md-10 col-sm-10">
                     <div>
@@ -62,7 +62,7 @@ const Banner = () => {
               <div className="col-lg-4">
                 <div className="row">
                   <div className="destination-img col-lg-3 col-lg-2 col-md-2 col-sm-2">
-                    <img src={require("./images/banner-discription2.png")}></img>
+                    <img src={require("./images/banner-discription2.png")} alt="discription"></img>
                   </div>
                   <div className="destination-content col-lg-9 col-md-10 col-sm-10">
                     <div>
@@ -75,7 +75,7 @@ const Banner = () => {
               <div className="col-lg-4">
                 <div className="row">
                   <div className="destination-img col-lg-3 col-md-2 col-sm-2">
-                    <img src={require("./images/banner-discription3.png")}></img>
+                    <img src={require("./images/banner-discription3.png")}alt="discription"></img>
                   </div>
                   <div className="destination-content col-lg-9 col-md-10 col-sm-10">
                     <div>

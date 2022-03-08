@@ -8,16 +8,16 @@ const Newsleter = () => {
             </div>
             <div className="row container p-2">
               <div className="col-lg-6 col-md-6 links col-sm-12 ">
-                <a href="#">Outdoor Activites</a>
-                <br></br> <a href="#">Cultural & Thematic Tours</a>
-                <br></br> <a href="#">Family Friendly Tours</a>
-                <br></br> <a href="#">Holiday & Seasonal Tours</a>
+                <a href="abc">Outdoor Activites</a>
+                <br></br> <a href="abc">Cultural & Thematic Tours</a>
+                <br></br> <a href="abc">Family Friendly Tours</a>
+                <br></br> <a href="abc">Holiday & Seasonal Tours</a>
               </div>
               <div className="col-lg-6 col-md-6 links col-sm-12">
-                <a href="#">City Tours</a>
-                <br></br> <a href="#">Indulgence & Luxary Tours</a>
-                <br></br> <a href="#">Relaxation Tours</a>
-                <br></br> <a href="#">Wild & Adventure Tours</a>
+                <a href="abc">City Tours</a>
+                <br></br> <a href="abc">Indulgence & Luxary Tours</a>
+                <br></br> <a href="abc">Relaxation Tours</a>
+                <br></br> <a href="abc">Wild & Adventure Tours</a>
               </div>
             </div>
           </div>

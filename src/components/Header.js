@@ -18,11 +18,11 @@ import {
               <ul>
                 <i>
                   <FaPhoneAlt color=" #94999f" size="1.2rem" />
-                  <a>1.820.3345.33</a>
+                  <a href="contact">1.820.3345.33</a>
                 </i>
                 <i>
                   <HiOutlineMail size="1.2rem" />
-                  <a>contact@traveltourwp.com</a>
+                  <a href="email">contact@traveltourwp.com</a>
                 </i>
               </ul>
             </div>
@@ -48,11 +48,11 @@ import {
               <i>
                 <AiOutlineLock size="1.2rem" />
               </i>
-              <a>Login</a>
+              <a href="login">Login</a>
               <i>
                 <FaUserAlt size="1.2rem" />
               </i>
-              <a>Sign Up</a>
+              <a href="signup">Sign Up</a>
             </div>
           </div>
         </div>

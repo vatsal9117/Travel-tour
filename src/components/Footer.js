@@ -26,16 +26,16 @@ const Footer = () => {
               </div>
               <div className="row">
                 <ul>
-                  <a href="#">
+                  <a href="ourstory">
                     <li>Our Story</li>
                   </a>
-                  <a href="#">
+                  <a href="travel">
                     <li>Travel Blog & Tips</li>
                   </a>
-                  <a href="#">
+                  <a href="work">
                     <li>Working With Us</li>
                   </a>
-                  <a href="#">
+                  <a href="partner">
                     <li>Be Our Partner</li>
                   </a>
                 </ul>
@@ -47,13 +47,13 @@ const Footer = () => {
               </div>
               <div className="row">
                 <ul>
-                  <a href="#">
+                  <a href="support">
                     <li>Customer Support</li>
                   </a>
-                  <a href="#">
+                  <a href="policy">
                     <li>Privacy & Policy</li>
                   </a>
-                  <a href="#">
+                  <a href="details">
                     <li>Contact Channels</li>
                   </a>
                 </ul>

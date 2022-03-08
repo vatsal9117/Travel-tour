@@ -5,7 +5,7 @@ const Destination = () => {
           <h2>Popular Destination</h2>
         </div>
         <div className="popular-destination text-center">
-          <a href="#">
+          <a href="abc">
             <p>
               View All Destinations<i className="ms-2 bi bi-arrow-right"></i>
             </p>
@@ -17,7 +17,7 @@ const Destination = () => {
               <div className="ui-card">
                 <img
                   src={require("./images/Destination1.jpg")}
-                  className="img-fluid"
+                  className="img-fluid" alt="destination1"
                 ></img>
                 <button className="destination-button">3 Hours</button>
                 <div className="description">
@@ -28,7 +28,7 @@ const Destination = () => {
                     countries Vokalia and Consonantia, there live the blind texts.
                     Separate.
                   </p>
-                  <a href="#">View All Tours</a>
+                  <a href="all">View All Tours</a>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ const Destination = () => {
                 <img
                   src={require("./images/Destination2.jpg")}
                   className="img-fluid"
-                  height={200}
+                  height={200} alt="destination1"
                 ></img>
                 <button className="destination-button">2 Hours</button>
                 <div className="description">
@@ -47,14 +47,14 @@ const Destination = () => {
                     countries Vokalia and Consonantia, there live the blind texts.
                     Separate.
                   </p>
-                  <a href="#">View All Tours</a>
+                  <a href="all">View All Tours</a>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-4 col-sm- 12 destination-card-3 mt-3">
                 <div className="card rounded-0 border-0">
-                  <img
+                  <img alt="destination1"
                     src={require("./images/Destination5.jpg")}
                     className="img-fluid"
                   ></img>
@@ -67,13 +67,13 @@ const Destination = () => {
                       countries Vokalia and Consonantia, there live the blind
                       texts. Separate.
                     </p>
-                    <a href="#">View All Tours</a>
+                    <a href="all">View All Tours</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4  col-md-4 col-sm-12 destination-card-4 mt-3">
                 <div className="card rounded-0 border-0">
-                  <img
+                  <img alt="destination1"
                     src={require("./images/Destination3.jpg")}
                     className="img-fluid"
                   ></img>
@@ -85,13 +85,13 @@ const Destination = () => {
                       countries Vokalia and Consonantia, there live the blind
                       texts. Separate.
                     </p>
-                    <a href="#">View All Tours</a>
+                    <a href="all">View All Tours</a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4  col-md-4 col-sm-12 destination-card-5 mt-3">
                 <div className="card rounded-0 border-0">
-                  <img src={require("./images/Destination4.jpg")}></img>
+                  <img src={require("./images/Destination4.jpg")} alt="destination1"></img>
                   <button className="destination-button">2 Hours</button>
                   <div className="description">
                     <h3>Scandinavia</h3>
@@ -100,7 +100,7 @@ const Destination = () => {
                       countries Vokalia and Consonantia, there live the blind
                       texts. Separate.
                     </p>
-                    <a href="#">View All Tours</a>
+                    <a href="all">View All Tours</a>
                   </div>
                 </div>
               </div>

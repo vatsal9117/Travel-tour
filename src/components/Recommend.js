@@ -5,7 +5,7 @@ const Recommend = () => {
           <h3>Our Recommended</h3>
         </div>
         <div className="Recommended-content text-center">
-          <a href="#">
+          <a href="abc">
             <p>
               View All Popular Tours<i className="ms-2 bi bi-arrow-right"></i>
             </p>
@@ -15,7 +15,7 @@ const Recommend = () => {
           <div className="col-lg-4 col-md-12 mt-5 col-sm-12">
             <div className="p-card">
               <div className="card-upper">
-                <img src={require("./images/recomended1.jpg")}></img>
+                <img src={require("./images/recomended1.jpg")} alt="recomended"></img>
               </div>
               <div className="card-body">
                 <div className="card-content mt-5">
@@ -53,7 +53,7 @@ const Recommend = () => {
           <div className="col-lg-4 col-md-12 mt-5 col-sm-12">
             <div className="p-card">
               <div className="card-upper">
-                <img src={require("./images/recomended2.jpg")}></img>
+                <img src={require("./images/recomended2.jpg")} alt="recomended"></img>
               </div>
               <div className="card-body">
                 <div className="card-content mt-5">
@@ -91,7 +91,7 @@ const Recommend = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 mt-5">
             <div className="p-card">
               <div className="card-upper">
-                <img src={require("./images/recomended.jpg")}></img>
+                <img src={require("./images/recomended.jpg")} alt="recomended"></img>
               </div>
               <div className="card-body third">
                 <div className="bestseller">
