@@ -1,0 +1,1977 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/arca-majora-3');
+*{
+  margin: 0%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Header Css */
+.header{
+  height: 55px;
+  font-family: "Poppins", sans-serif;
+  border-bottom: #e1e1e1 1px solid;
+  font-style: normal;
+}
+.container {
+  padding: 10px;
+}
+.details{
+  color:  #94999f;
+  display: flex;
+  border-right: 1px solid #e1e1e1;
+ 
+}
+.contact-header{
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-left: 20px;
+  float: left;
+  line-height: 1.7;
+  font-size: 14px;
+  
+}
+.contact-header a {
+  margin-left:10px;
+  text-decoration: none;
+  color:  #94999f;
+}
+.contact-header a:hover{
+  color:  #94999f;
+}
+.contact-header i {
+  margin-right: 10px;
+  font-size: 14px;
+  font-style: normal;
+}
+.email-icon{
+  margin-left: 20px;
+}
+
+.social-Links-header ul {
+  margin-left:435px;
+  padding-top: 15px;
+  float: right;
+  
+}
+.social-Links-header i {
+  margin-left: 30px;
+}
+.border{
+  margin-left: 5px;
+ 
+}
+.loginsign {
+  padding-top: 15px;
+  float: left;
+  line-height: inherit;
+  font-size: inherit;
+    
+}
+.loginsign i {
+  margin-left: 5px;
+  color: #94999f;
+  margin-right: 5px;
+}
+.loginsign a {
+  font-size: 15px;
+  margin-left: 0px;
+  color: #94999f;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #565656;
+}
+.loginsign a:hover{
+  color: #94999f;
+}
+/* Navbar Css */
+.navbar img{
+  padding: 15px;
+  margin-left: -10px;
+  float: left;
+  position: relative;
+}
+.navbar{
+  font-family: "Poppins", sans-serif;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:14px;
+  font-weight:600;
+  color:  #94999f;
+  padding: 10px;
+  transition: height .5s ease-in;
+}
+.navbar .fixed{
+  width: 100%;
+    position: fixed;
+    top: 0;
+    height: 90px;
+  background: rgba(255, 255, 255, 0.9);
+}
+.nav-links{
+  margin-left: 30px;
+}
+
+.search i{
+  font-size: 15px;
+  margin-left:0px;
+  color:  #94999f;
+}
+.search i .fixed{
+  font-size: 15px;
+  margin-left:-100px;
+  color:  #94999f;
+}
+.search-icon i:hover{
+  color:  #94999f;
+}
+.collapse{
+  margin-left: 100px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  border-bottom: 5px solid #e1e1e1;;
+}
+/* Banner form css */
+.Banner{
+margin-top: -70px;
+}
+.banner{
+  font-family: "Poppins", sans-serif;
+  background-image: url(//a6e8z9v6.stackpathcdn.com/traveltour/main4/wp-content/uploads/2019/03/bgtravel.jpg);
+  background-size: cover;
+  background-position: center top;
+  height: 500px;
+  transform: translate(0px, 66.1219px);
+  z-index: 0;
+  margin-top: 0;
+}
+.banner-content{
+  margin-top: 160px;
+}
+.banner-content h1{
+  font-family: 'Arca Majora 3', sans-serif;
+  font-size: 52px;
+  text-transform: none;
+  color: #ffffff;
+  font-weight: 800;
+  padding-left: 30px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  border-color: #e1e1e1;
+}
+.banner-content p{
+  font-size: 21px;
+  font-style: normal;
+  color: #ffffff;
+  margin-top: 5px;
+  line-height: 1.7;
+}
+.form-outer{
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.form-fields {
+  padding: 0px;
+  margin-left: 0;}
+.form-fields input{
+  border-color:#94999f;
+  border: none;
+}
+.form-fields input[type=text]{
+  width: 100%;
+  height: 65px;
+  padding: 14px 22px;
+  font-size: 15px;
+}
+.custom-select select{
+  width: 100%;
+  margin-left: 0px;
+  border-color:#94999f;
+  padding: 20px;
+  color:darkgrey;
+  height: 65px;
+  padding: 14px 22px;
+  font-size: 15px;
+}
+.form-fields i {
+  position: relative;
+  left: 240px;
+  bottom: 45px;
+}
+.form-fields button{
+  height: 65px;
+  width: 70%;
+  padding: 14px 22px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 500;
+  background: #f97150;
+  color: #fff;
+  text-align: center;
+  border: none;
+}
+/* Banner description */
+.banner-description{
+  margin-top: 80px;
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px 20px 0px 30px;
+  max-width: 1200px;
+  padding: 50px;
+  color: white;
+  position: relative;
+  background: linear-gradient(rgba(249, 114, 81, 1), rgba(255, 152, 108, 1));
+  border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    font-size: 15px;
+}
+.banner-description h4{
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-family:'Arca Majora 3', sans-serif;
+}
+.banner-description h5{
+  font-size: inherit;
+  line-height: 1.7;
+  text-align: left;
+}
+/* Destination */
+.destination{
+  margin-top: 400px;
+  position: relative;
+  font-weight:500
+}
+.popular-destination h2{
+  font-weight: bold;
+}
+.destination a{
+  color: #f97150;
+  text-decoration: none;
+}
+.destination a:hover{
+  color: #f97150;
+}
+/* Destination Cards */
+.destination-cards{
+  margin-top: 50px;
+}
+
+.destination-button{
+     color: white;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 11px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: #f97150;
+}
+.ui-card{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+	background:radial-gradient(rgb(31, 30, 30) 50%, rgb(43, 42, 42) 100%);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 95%;
+  opacity: 1;
+}
+
+.ui-card img{
+  height: inherit;
+	transform: scale(1.3);
+	transition: all 0.3s ease-out;
+}
+.ui-card:hover img{ 
+	opacity: 0.3
+}
+.ui-card .description{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+  opacity: 1;
+  /* background:radial-gradient(rgb(46, 45, 45) 0%, #000 100%);
+   */
+}
+.ui-card .description h3{
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 50px;
+  margin-left: 325px;
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+ 
+}
+.ui-card:hover .description h3{
+  margin-left:auto;
+  position: relative;
+  opacity: 1;
+	transform: translateY(-110px);
+  transition: all 0.3s ease-out;
+}
+.ui-card .description p{
+	transform: translateY(30px);
+	opacity: 0;
+}
+.ui-card .description a{
+	color: #f97150;
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	transform: translateY(30px);
+	opacity: 0;
+}
+.ui-card:hover .description p{
+	opacity: 1;
+	transform: translateY(-100px);
+  transition: all 0.3s ease-out;
+}
+ .ui-card:hover .description a{
+	opacity: 1;
+	transform: translateY(-90px);
+  transition: all 0.3s ease-out;
+}
+/* second card */
+.ui-card .description1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+  opacity: 1;
+  /* background:radial-gradient(rgb(46, 45, 45) 0%, #000 100%);
+   */
+}
+.ui-card .description1 h3{
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 550px;
+  font-size: 20px
+}
+.ui-card:hover .description1 h3{
+
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
+  opacity: 1;
+	transform: translateY(-50px);
+  transition: all 0.3s ease-out;
+}
+.ui-card .description1 p{
+	display: none;
+  font-size: 15px;
+}
+ .ui-card .description1 a{
+	color: #f97150;
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	transform: translateY(-10px);
+	opacity: 0;
+  display: none;
+}
+.ui-card:hover .description1 p{
+  display: block;
+	opacity: 1;
+	transform: translateY(-30px);
+  transition: all 0.4s ease-out;
+}
+ .ui-card:hover .description1 a{
+  display: block;
+	opacity: 1;
+	transform: translateY(-20px);
+  transition: all 0.3s ease-out;
+} */
+/* third -fourth - fifth card */
+.card {
+  background-color: #181818;
+  width: 100%;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+	background-color:radial-gradient(rgb(27, 27, 27) 100%, rgb(143, 24, 24) 100%);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 95%;
+  opacity: 1;
+}
+.card img{
+	background: #000;
+}
+.card:hover img{ 
+	opacity: 0.6;
+}
+.card .description{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.card .description h3{
+  margin-left: 0px;
+  margin-top: 250px;
+  position: relative;
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.card .description p{
+  display: none;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out 0.0s;
+  font-size: 15px;
+}
+.card .description a{
+  display: none;
+	color: #f97150;
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	opacity: 0;
+  font-size: 15px;
+	transition: all 0.3s ease-out 0.0s;
+}
+.card:hover .description h3{
+	opacity: 1;
+	transform: translateY(-60px);
+}
+.card:hover .description p{
+  display: block;
+	opacity: 1;
+	transform: translateY(-40px);
+}
+.card:hover .description a{
+	opacity: 1;
+	transform: translateY(-20px);
+}
+/* popular Tours */
+.popular-tour-wraper{
+  background-image: url(//a6e8z9v6.stackpathcdn.com/traveltour/main4/wp-content/uploads/2019/04/title-bg-popular-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 694.361px;
+    transform: translate(0px, -1.39063px);
+}
+.popular-tour-heading {
+  margin-top: 100px;
+}
+.popular-tour-heading h3{  
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+.popular-tour-content a{
+  /* margin-top: 50px; */
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #f97150;
+  vertical-align: middle;
+}
+.popular-tour-content p{
+  margin-right: 5px;
+}
+.popular-tour-content a:hover{
+  text-decoration: none;
+  color: #f97150;
+}
+.p-card{
+  overflow: hidden;
+  box-shadow: 0px 17px 27px -2px #DCDEDE ;
+  background-color: #181818;
+}
+.card-upper{
+  z-index: 0;
+}
+.card-upper img{
+  object-fit:cover;
+  width: 100%;
+  transition: transform .2s;
+  background-color: #181818;
+
+}
+.card-upper img:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: .3s ease-out;
+  transform:scale(1.1) translateY(-10px) ;
+  opacity: 0.3;
+  z-index: -1;
+  
+}
+.card-body{
+  margin-top: -40px;
+  background-color:white;
+
+}
+.video-icon{
+  position: absolute;
+  margin-top: -140px;
+  margin-left: 150px;
+  margin-right: auto;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  display: none;
+}
+.p-card:hover .video-icon{
+  display: block;
+}
+.bestseller label{
+color: white;
+z-index: 1;
+margin-left:5px;
+padding: 5px;
+background-color: #f97150;
+border-color: #f97150;
+font-size: 20px;
+font-weight: bold;
+line-height: 30px;
+position:absolute;
+}
+.card-content{
+  margin-top: 50px;
+}
+.card-content i{
+  font-size: 20px;
+ color:#f97150;
+ transform: rotate(30deg);
+
+}
+.card-content h4{
+  position: relative;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-transform: none;
+  line-height: 1.7;
+  font-family:'Arca Majora 3', sans-serif;
+}
+.card-service {
+  margin-top: 20px;
+  color: #8c8c8c;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-service big {
+  font-size: 25px;
+  font-weight: bold;
+  color:#f97150;
+  float: right;
+}
+.review{
+  font-size: 10px;
+  color: #8c8c8c;
+}
+.card-service i{
+color: #f97150;
+}
+.checked{
+  color: #f97150;
+}
+.bi-star{
+  color: orangered;
+}
+strike{
+  float: right;
+}
+/* discount */
+.discount-content{
+  background: linear-gradient(rgba(249, 114, 81, 1), rgba(255, 152, 108, 1));
+}
+.discount-content h3{
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fed7c8;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.discount-content h2{
+  font-size: 31px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #ffffff;
+  font-family:'Arca Majora 3', sans-serif;
+  line-height: 1.2;
+}
+.discount-row{
+  height: 325px;
+}
+.discount-content a {
+  margin-top:0px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 9px 24px 11px 24px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #1e354c;
+  color: #ffffff;
+}
+.learn-more{
+  margin-top: 40px;
+}
+.discount-content a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.discount-content img:hover {
+  background-color: #f97150;
+  opacity: 0.3;
+}
+.discount-content img:hover .search{
+ visibility: visible;
+}
+.search{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -75px;
+  color: #fff;
+  size: 15px;
+  visibility: hidden;
+  
+}
+
+.discount-content small{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.gdlr-core-page-builder-body [data-skin="White Text"] .gdlr-core-button.gdlr-cor
+.discount{
+  height: 700px;
+}
+.discount-img{
+  background-image: url(//a6e8z9v6.stackpathcdn.com/traveltour/main4/wp-content/uploads/2019/03/shutterstock_636413090.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* Our recomended */
+.Recommended-wraper{
+  background-image: url(//a6e8z9v6.stackpathcdn.com/traveltour/main4/wp-content/uploads/2019/04/title-bg-recommended-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 692.661px;
+  transform: translate(0px, -1.77188px);
+  width: 100%;
+  margin-top: 500px;
+}
+.Recommended-heading {
+  margin-top: 100px;
+}
+.Recommended-heading h3{  
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+.Recommended-content a{
+  /* margin-top: 50px; */
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #f97150;
+  vertical-align: middle;
+}
+.Recommended-content p{
+  margin-right: 5px;
+}
+.from{
+ margin-left:50px;
+}
+.Recommended-content a:hover{
+  text-decoration: none;
+  color: #f97150;
+}
+/* traveling-highlight */
+.travel-wraper{
+  width: 100%;
+  margin-top: 130px;
+  background-image: url(//a6e8z9v6.stackpathcdn.com/traveltour/main4/wp-content/uploads/2019/03/bgtravel2.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 543.275px;
+  transform: translate(0px, -22.6688px);
+}
+.travel-heading{
+  margin-top: 150px;
+}
+.travel-heading h3{
+  font-size: 55px;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #ffffff;
+  font-family:'Arca Majora 3', sans-serif;
+  line-height: 1.2;
+  font-weight: 1000;
+}
+.travel-content h3{
+  margin-top: 30px;
+  font-size: 23px;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #ff7d5d;
+    font-family:'Arca Majora 3', sans-serif;
+    font-weight: 1000;
+}
+.video-link img{
+  margin-top: 30px;
+}
+
+/* reviews */
+.review-wraper{
+  margin-top: 00px;
+  background-image: url(//a6e8z9v6.stackpathcdn.com/traveltour/main4/wp-content/uploads/2019/04/title-bg-testimonial-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 737.896px;
+    transform: translate(0px, 1.8375px); 
+}
+.review-header h3{
+  padding-top: 50px;
+  font-size: 28px;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-family:'Arca Majora 3', sans-serif;
+}
+/* owl carousel */
+.review-card-carousel{
+  margin-top: 80px;
+}
+.r-card{
+  background-color: #f97150;
+  color: white ;
+  height: auto;
+}
+.st{
+  font-size: 120px;
+    float: none;
+    font-family: "ABeeZee","sans-serif";
+    height: 100px;
+    margin-left: 30px;
+}
+.r-content p{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-style: italic;
+  font-size: 20px;
+}
+.r-card img{
+  border-radius: 50%;
+  height: auto;
+  width: 100%;
+  margin-left: 10px;
+}
+.blog p{
+  font-style: italic;
+  font-size: 15px;
+}
+.blog i{
+  color:#ffcd9c;
+}
+.blog h5{
+  font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* News letter */
+.news-letter{
+  padding: 90px 0px 35px 0px;
+  border-color: #e1e1e1 ;
+  background-color: #f5f5f5;;
+}
+.heading h4{
+  font-size: 24px;
+  font-weight: 1000;
+  letter-spacing: 0px;
+  text-transform: none;
+  margin-left: 75px;
+  text-align: left;
+  font-family:'Arca Majora 3', sans-serif;
+}
+.links a{
+  display: block;
+  color: #f97150;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 65px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+.newsletter-heading h4{
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-family:'Arca Majora 3', sans-serif;
+} 
+.subscription h6{
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: inherit;
+  color: #8c8c8c;
+  font-family: "Poppins", sans-serif;
+}
+.newsform input{
+  width: 99%;
+  font-size: 15px;
+  line-height: 20px;
+  border-width: 1px;
+  padding: 19px 20px;
+  height: 58px;
+  border: none;
+  margin-left: 15px;
+  color: #8d8d8d;
+  font-family: "Poppins", sans-serif;
+  vertical-align: middle;
+}
+.newsform input[type="email"]{
+  color: #8d8d8d;
+  border-color: #ffffff;
+}
+.newsform input[type="submit"]{
+ background-color: #f97150; 
+ border-color: #f97150;
+ width: 80%;
+ font-weight: 500;
+ color: #f5f5f5;
+ font-size: 15px;
+ line-height: 20px;
+ padding: 19px 0;
+ height: 58px;
+ font-family: "Poppins", sans-serif;
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: .8px;
+}
+.links a:hover{
+  color: #f97150;
+}
+.icons i{
+  margin-right: 15px;
+  font-size: 19px;
+  color: #aaaaaa;
+}
+/* Recent articals */
+.recent-artical-wraper{
+  background-image: url(//a6e8z9v6.stackpathcdn.com/traveltour/main4/wp-content/uploads/2019/04/title-bg-articles.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 668.237px;
+  transform: translate(0px, 1.7px);
+}
+.recent-artical-heading h3{
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-transform: none;
+  margin-top: 100px;
+  font-family:'Arca Majora 3', sans-serif;
+  color: #383838;
+}
+.recent-artical-content a{
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #f97150;
+  vertical-align: middle;
+}
+.recent-artical-content a:hover{
+  color: #f97150;
+  text-decoration: none;
+}
+
+.card {
+  margin-right: 20px;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0) !important;
+  color: #f97150;
+}
+.card-img-overlay {
+  margin-top: 250px;
+  color: #f5f5f5;
+}
+.card-img-overlay h3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Arca Majora 3', sans-serif;
+}
+.card-img-overlay p{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.card:hover .card-img-overlay h3{
+  transform: translateY(-15px);
+  transition: all 0.3s ease-out 0.0s;
+}
+.card:hover .card-img-overlay p{
+  transform: translateY(-15px);
+  transition: all 0.3s ease-out 0.0s;
+}
+/* .feature */
+.feature-heading h3{
+  font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    text-transform: none;
+    color: #383838;
+    font-family:'Arca Majora 3', sans-serif;
+}
+.feature-content{
+  margin-top: -10px;
+}
+.feature-content a{
+  text-decoration: none;
+  border-color: #e1e1e1;
+  margin-bottom: 20px;
+  color: #8c8c8c;
+   font-family: "Poppins", sans-serif;
+}
+.feature-content a:hover{
+  text-decoration: none;
+  color: #8c8c8c;
+}
+/* footer */
+.footer-upper{
+  background-color: #222222;
+  padding: 50px;
+}
+.call-us h3{
+  margin-top: 10px;
+  font-size: 17px;
+  text-transform: none;
+  color: #f97150;
+  font-weight: 800;
+  display: inline-block;
+  font-family:'Arca Majora 3', sans-serif;
+}
+.info p{
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #f5f5f5;
+}
+.info i {
+  color: #f5f5f5;
+}
+.about-us h3{
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family:'Arca Majora 3', sans-serif;
+  font-size: 18px;
+}
+.about-us a  {
+  text-decoration: none;
+  color:  #c7c7c7;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.about-us a:hover {
+  text-decoration: none;
+  color:#f97150
+}
+.about-us li{
+  list-style: none;
+  margin-top: 15px;
+}
+.about-us p{
+  color: #f5f5f5;
+  margin-top: 15px;
+}
+/* footer lower */
+.footer-lower{
+  padding: 10px;
+  border-color: #838383;
+  background-color:  #181818;;
+}
+.p3 {
+  margin-left: 60px;
+  padding: 20px;
+}
+.footer-lower p{
+  color: #838383;
+  padding: 2px;
+  color: #e1e1e1;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.footer-icons{
+  padding: 20px;
+  margin-left: 150px;
+  float: right;
+}
+.footer-icon-row{
+  float: right;
+}
+.footer-lower i{
+  color: #e1e1e1;
+}
+.footer-lower svg{
+  color: #e1e1e1;
+}
+/* media query */
+@media(max-width: 1322px) {
+  .social-Links-header ul {
+    margin-left: 320px;
+  }
+  .collapse{
+    margin-left: 100px;
+  }
+  .search{
+    font-size: 20px;
+    margin-left: 1px;
+    color:  #94999f;
+  }
+  .destination{
+    margin-top: 300px;
+    position: relative;
+    font-weight:500
+  }
+  .Recommended-wraper{
+    margin-top: 500px;
+  }
+}  
+@media(max-width: 1199px) {
+  .social-Links-header ul {
+    margin-left: 140px;
+  }
+  .navbar {
+    font-size: 0.9rem;
+  }
+  .collapse{
+    margin-left: 70px;
+  }
+  .loginsign i{
+    margin-left: 0px;
+    margin-right:1px;
+
+  }
+  .loginsign a{
+    margin-right:5px;
+    font-size: 14px;
+  }
+  .destination{
+    margin-top: px;
+    position: relative;
+    font-weight:500
+  }
+  .video-icon{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    margin-right: auto;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: none;
+  }
+  .card-img-overlay{
+    margin-top: 150px;
+  }
+  .feature-wraper{
+    margin-top: 10px;
+  }
+  .info p{
+    font-size: 22px;
+  }
+  .links a{
+    font-size: 18px;
+  }
+  .loginsign{
+    margin-left: 5px;
+  }
+ .Recommended-wraper{
+   margin-top: 360px;
+ }
+ .news-letter{
+   margin-top: 50px;
+ }
+ .card-img-overlay{
+   margin-top: 200px;
+ }
+ .info p{
+   font-size: 18px;
+ }
+}   
+@media(max-width:992px) {
+  .destination{
+    margin-top: 400px;
+  }
+  .row{
+    margin-top: 30px;
+  }
+  .Recommended-wraper{
+    margin-top: 2000px;
+  }
+  .video-icon{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 110px;
+    margin-right: auto;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: none;
+  }
+  .bestseller label{
+    color: white;
+    z-index: 1;
+    margin-left:5px;
+    padding: 5px;
+    background-color: #f97150;
+    border-color: #f97150;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    position:absolute;
+    }
+  .traveling{
+    margin-top: 1800px;
+  }
+  .news-letter{
+    margin-top: 0px;
+  }
+  .newsletter{
+    margin-top: 25px;
+    margin-left: 80px;
+  }
+  .img1 img{
+    height: 50px;
+    width: 50px;
+  }
+  .feature-wraper{
+    margin-top: 0px;
+  }
+  .card-img-overlay{
+    margin-top: 100px;
+  }
+  .links a{
+    font-size: 17px;
+  }
+  .info p{
+    font-size: 20px;
+  }
+  .form-fields button{
+    width: 100%;
+  }
+}
+@media(max-width: 975px) {
+  .social-Links-header ul {
+    margin-left: 80px;
+  }
+  .loginsign a{
+    margin-right:5px;
+    font-size: 0.7rem;
+  }
+  .header {
+
+    font-size: 0.9rem;  
+  }
+  .navbar {
+    font-size: 12px;
+  }
+  .nav-links{
+    margin-left: 10px;
+  }
+  .form-outer{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .destination{
+    margin-top: 400px;
+  }
+  .ui-card .description h3{
+    margin-top: 50px;
+    margin-left: 180px;
+  }
+  .ui-card:hover .description h3{
+    transform: translateY(-40px);
+    transition: all 0.3s ease-out;
+  }
+  .ui-card .description p{
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  .ui-card .description a{
+    display: none;
+  }
+  .ui-card:hover .description p{
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: all 0.3s ease-out;
+  }
+   .ui-card:hover .description a{
+    opacity: 1;
+    transform: translateY(-90px);
+    transition: all 0.3s ease-out;
+  }
+   .ui-card .description1 h3{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .ui-card:hover .description1 h3{
+    transform: translateY(10px);
+    transition: all 0.3s ease-out;
+  }
+  .ui-card .description1 p{
+    display: none;
+    font-size: 11px;
+  }
+  .ui-card .description1 a{
+    display: none;
+  }
+  .ui-card:hover .description1 p{
+    opacity: 1;
+    transform: translateY(10px);
+    transition: all 0.3s ease-out;
+  }
+   .ui-card:hover .description1 a{
+     display: none;
+    opacity: 1;
+    transform: translateY(-90px);
+    transition: all 0.3s ease-out;
+  }
+  .card .description h3{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .card:hover .description h3{
+    transform: translateY(-3px);
+    transition: all 0.3s ease-out;
+  }
+  .card .description p{
+    transform: translateY(0px);
+    opacity: 0;
+    font-size: 11px;
+  }
+  .card .description a{
+    display: none;
+  }
+  .card:hover .description p{
+    opacity: 1;
+    transform: translateY(-0px);
+    transition: all 0.3s ease-out;
+  }
+   .card:hover .description a{
+    opacity: 1;
+    transform: translateY(-90px);
+    transition: all 0.3s ease-out;
+  }
+  .destination-button {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 11px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: #f97150;
+  }
+  .Recommended-wraper{
+    margin-top: 400px;
+  }
+  .video-icon{
+    margin-top: -80px;
+    margin-left: 80px;
+  
+  }
+  .owl-item img  {
+    height: 50px;
+    width: 50px;
+  }
+  .news-letter{
+    margin-top: 30px;
+    border-color: #e1e1e1 ;
+    background-color: #f5f5f5;;
+  }
+  .heading h4{
+    margin-left: 15px;
+  }
+  .heading a{
+    margin-left: 10px;
+  }
+  
+  .newwsform input{
+    width: 70%;
+  }
+  .newsform input[type="email"]{
+    width: 70%;
+    color: #8d8d8d;
+    border-color: #ffffff;
+  }
+  .newsform input[type="submit"]{
+   width: 70%;
+  }
+  .links a:hover{
+    color: #f97150;
+  }
+  .icons i{
+    margin-right: 15px;
+    font-size: 19px;
+    color: #aaaaaa;
+  }
+  .info p{
+    font-size: 17px;
+  }
+  .footer-upper{
+    padding: 20px;
+  }
+  .feature-wraper {
+    margin-top:0px;
+  }
+}
+@media (max-width:900px) {
+  .social-Links-header ul {
+    margin-left: 40px;
+  }
+  .loginsign a{
+    margin-right:5px;
+    font-size: 0.7rem;
+  }
+  .destination{
+    margin-top: 300px;
+  }
+  .footer-icons{
+    margin-left: 100px;
+    padding: 10px;
+  }
+  .news-letter{
+    margin-top:00px;
+  }
+  .links a{
+    margin-left: 5px;
+  }
+
+}
+@media(max-width: 850px){
+  .contact-header a{
+    font-size: 11px;
+    padding-left: 0px;
+  }
+  .social-Links-header ul {
+    margin-left: 0px;
+  }
+  .loginsign a{
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .info p{
+    font-size: 15px;
+  }
+  .footer-upper{
+    padding: 20px;
+  }
+ 
+}
+@media(max-width: 767px) {
+  .header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+  .contact-header{
+    display: none;
+  }
+  .social-Links-header ul {
+    margin-left: 30px;
+    margin-right: auto;
+    float: right;
+    padding: 20px;
+  }
+  .loginsign{
+    padding: 20px;
+  }
+  .loginsign i{
+    margin-left: 4px;
+    margin-right: 10px;
+  }
+  .loginsign a{
+    margin-left: 15px;
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  .navbar img{
+    margin-left: -100px;
+  }
+  .collapsed{
+    margin-left:150px;
+  }
+  .form-fields input{
+    width: 100%;
+  }
+  .destination{
+    margin-top: 500px;
+  }
+  .details{
+    border-right: none;
+  }
+  .banner{
+    height: 800px;
+  }
+  .form-outer{
+    margin-left: 0;
+    align-items: center;
+  }
+  .form-fields{
+    padding: 1px;
+  }
+  .form-fields button{
+    width: 100%;
+  }
+  .desitination-banner img{
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  .desitination-banner h4{
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  .desitination-banner h5{
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  .ui-card .description h3{
+    margin-top: 50px;
+    margin-left: 180px;
+    font-size: 20px;
+  }
+  .ui-card:hover .description h3{
+    transform: translateY(-40px);
+    transition: all 0.3s ease-out;
+  }
+  .ui-card .description p{
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  .ui-card .description a{
+    display: none;
+  }
+  .ui-card:hover .description p{
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: all 0.3s ease-out;
+  }
+   .ui-card:hover .description a{
+    opacity: 1;
+    transform: translateY(-90px);
+    transition: all 0.3s ease-out;
+  }
+   .ui-card .description1 h3{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .ui-card:hover .description1 h3{
+    transform: translateY(-190px);
+    transition: all 0.3s ease-out;
+  }
+  .ui-card .description1 p{
+    display: none;
+    font-size: 18px;
+  }
+  .ui-card .description1 a{
+    display: non6;
+  }
+  .ui-card:hover .description1 p{
+    opacity: 1;
+    transform: translateY(-170px);
+    transition: all 0.3s ease-out;
+  }
+   .ui-card:hover .description1 a{
+    opacity: 1;
+    transform: translateY(-160px);
+    transition: all 0.3s ease-out;
+    display: block;
+  }
+  .card .description h3{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .card:hover .description h3{
+    transform: translateY(-190px);
+    transition: all 0.3s ease-out;
+  }
+  .card .description p{
+    transform: translateY(0px);
+    opacity: 0;
+    font-size: 18px;
+  }
+  .card .description a{
+    display: none;
+  }
+  .card:hover .description p{
+    opacity: 1;
+    transform: translateY(-170px);
+    transition: all 0.3s ease-out;
+  }
+   .card:hover .description a{
+    opacity: 1;
+    transform: translateY(-150px);
+    transition: all 0.3s ease-out;
+    display: block;
+  }
+  .destination-button {
+    top: 18px;
+    font-size: 13px;
+  }
+  .video-icon{
+    margin-top: -180px;
+    margin-left: 220px;
+  }
+  .discount-img{
+    margin-top: 20px;
+    height: 500px;
+  }
+  .discount-content sub{
+    margin-bottom: 20px
+  }
+  .Recommended-wraper{
+    margin-top: 2100px;
+  }
+  .news-letter{
+    margin-top: 200px;
+  }
+  .artical-card{
+    margin-left: 0px;
+    height: auto;
+    margin-top: 20px;
+  }
+  .card{
+    margin-top: 20px;
+  }
+  .artical-card h3{
+    margin-top: 150px;
+  }
+  .travel-wraper{
+    margin-top: 1400px;
+  }
+  .owl-item img  {
+    height: 90px;
+    width: 90px;
+  }
+  .news-letter{
+    margin-top: 200px;
+  }
+  .heading h4{
+    margin-left: 150px;
+  }
+  .links a{
+    margin-left: 140px;
+  }
+  .newsletter-heading h4{
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  .subscription h6{
+    margin-left: 70px;
+  }
+  .newsform input[type="email"]{
+    width: 50%;
+    margin-left: 80px;
+  }
+  .newsform input[type="submit"]{
+    margin-top: 5px;
+    width: 50%;
+    margin-left: 80px;
+  }
+  .icons-i {
+    margin-left: 70px;
+  }
+  .card-img-overlay{
+    margin-top: 300px;
+    margin-left: 40px;
+  }
+  .card-img-overlay h3{
+    font-weight: 800;
+  }
+  .card-img-overlay p{
+    font-weight: 700;
+  }
+  
+.card:hover .card-img-overlay h3{
+  transform: translateY(-80px);
+  transition: all 0.3s ease-out 0.0s;
+}
+.card:hover .card-img-overlay p{
+  transform: translateY(-75px);
+  transition: all 0.3s ease-out 0.0s;
+}
+  .feature-wraper{
+    margin-top: 1400px;  
+  }
+  .feature-wraper img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  .footer-upper-wraper{
+    margin-left: 100px;
+    margin-right: auto;
+  }
+  .visa img{
+    width: fit-content;
+  }
+  .about-us {
+    margin-top: 10px;
+  }
+  .footer-icons{
+    margin-left: 25px;
+    padding: 20px;
+  }
+}
+@media(max-width: 575px) {
+ .detalies {
+    flex-shrink: 0;
+    width: 100% !important;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    display: inline-block;
+    position: absolute;
+   }
+  .social-Links-header ul {
+    margin-left:0px;
+    margin-right: auto;
+    float: left;
+  }
+  .social-Links-header i{
+    margin-left: 15px;
+  }
+  .social-Links-header{
+    margin-left: 0px;
+    margin-right:0px;
+  }
+  .log{
+    margin-left: 150px;
+  }
+  .loginsign{
+    display: block;
+    margin-left:  0px;
+    margin-right: auto;
+  }
+  /* .navbar button{
+    margin-left: 100px;
+  } */
+  .collapsed{
+    margin-left: 120px;
+  }
+  .navbar img {
+    margin-left: -20px;
+}
+  .search{
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .form-fields input[type="text"]{
+    width: 80%;
+    margin-left: 55px;
+    margin-right: auto;
+  }
+  .custom-select select{
+    width: 80%;
+    margin-left: 55px;
+    margin-right: auto;
+  }
+  .form-fields button{
+    width: 80%;
+    margin-left: 55px;
+    margin-right: auto;
+  }
+  .destination-card{
+    margin: 10px;
+    padding:10px;
+  }
+ 
+  .desitination-banner img {
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+  .destination-content h4{
+      margin-top: -99px;
+  }
+  .p-card{
+    margin: 15px;
+    padding: 5px;
+  }
+  .review-card-carousel{
+    margin: 10px;
+    padding: 15px;
+  }
+  .r-content{
+    padding: 10px;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    height: 50px;
+    width: 10%;
+}
+.Recommended-wraper{
+  margin-top: 2300px;
+}
+.travel-wraper{
+  margin-top: 1600px;
+}
+.heading h4{
+  margin-left: 50px;
+}
+.links a{
+  margin-left: 50px;
+}
+.newsletter h4{
+  margin-left: -20px;
+}
+.newsletter h6{
+  margin-left: -20px;
+}
+.newsform input[type="email"]{
+  width: 70%;
+  margin-left: -10px;
+}
+.newsform input[type="submit"]{
+  width: 70%;
+  margin-left: -10px;
+}
+.icons-i{
+  margin-left: -25px;
+}
+  .blog  h5{
+    margin-top: 20px;
+  }
+  .news-letter{
+    margin-top: 40px;
+  }
+  .discount-img{
+    height: 600px;
+  }
+  .feature-wraper img {
+    display: block;
+    margin-left: 70px;
+    margin-right: auto;
+    width: 50%;
+}
+  .footer-upper-wraper{
+    margin-left:50px ;
+  }
+}
+@media (max-width:530px) {
+  .social-Links-header{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .banner-content p{
+    font-size: 18px;
+  }
+  .row>.loginsign{
+    width: fit-content;
+  } 
+  .video-icon {
+    margin-top: -170px;
+    margin-left: 190px;
+}
+}
+
+@media (max-width:443px) {
+  .destination{
+    margin-top:800px;
+  }
+  .loginsign {
+    margin-left: 80px;
+    margin-right: auto;
+  }
+  .log{
+    margin-left: 50px;
+  }
+  .collapsed{
+    margin-left: 20px;
+  }
+  .banner-content p{
+    font-size: 18px;
+  }
+  .news-letter{
+    margin-top: 100px;
+  }
+  .feature-wraper{
+    margin-top: 800px;  
+  }
+  .artical-card h3 {
+    margin-top: 0px;
+  }
+  .traveling{
+    margin-top: 1480px;
+  }
+  .card-img-overlay{
+    margin-top: 250px;
+  }
+  .feature-wraper img {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 50%;
+}
+.video-icon {
+  margin-top: -150px;
+  margin-left: 150px;
+}
+}
+@media (max-width:381px) {
+  .collapsed{
+    margin-left: 10px;
+  }
+  .form-fields input[type="text"]{
+    width: 80%;
+    margin-left: 35px;
+    margin-right: auto;
+  }
+  .custom-select select{
+    width: 80%;
+    margin-left: 35px;
+    margin-right: auto;
+  }
+  .form-fields button{
+    width: 80%;
+    margin-left: 35px;
+    margin-right: auto;
+  }
+  .news-letter{
+    margin-top: 150px;
+  }
+  .heading h4{
+    margin-left: 50px;
+  }
+  .links a{
+    margin-left: 50px;
+  }
+  .newsletter h4{
+    margin-left: -20px;
+  }
+  .newsletter h6{
+    margin-left: -20px;
+  }
+  .newsform input[type="email"]{
+    width: 70%;
+    margin-left: -10px;
+  }
+  .newsform input[type="submit"]{
+    width: 70%;
+    margin-left: -10px;
+  }
+  .icons-i{
+    margin-left: -25px;
+  }
+  .card-img-overlay{
+    margin-top: 250px;
+  }
+  .video-icon {
+    margin-top: -110px;
+    margin-left: 110px;
+  }
+}
+@media(max-width:281px){
+  .loginsign{
+    margin-left: 80px;
+  }
+  .destination{
+    margin-top: 950px;
+  }
+  .traveling img{
+    height: 50px;
+  }
+  .traveling{
+    margin-top: 1300px;
+  }
+  .Recommended-wraper{
+    margin-top: 2000px;
+  }
+  .heading h4{
+    margin-left: 0px;
+  }
+  .links a{
+    margin-left: 0px;
+  }
+  .newsletter{
+    margin-left: 0px;
+  }
+  .newsform input {
+    margin-left:0px;
+  }
+  .newsform button {
+    margin-left: 0px;
+  }
+  .card-img-overlay{
+    margin-top: 10px;
+  }
+  .icons-i{
+    margin-left: 0px;
+  }
+  .feature-wraper{
+    margin-top: 300px;  
+  }
+  .call-us{
+    font-size: 15px;
+  }
+  .about-us{
+    font-size: 15px;
+  }
+  .footer-icons{
+    margin-left: 0px;
+  }
+  .video-icon {
+    position: fixed ;
+    margin-top: -90px;
+    margin-left: 60px;
+  }
+}
