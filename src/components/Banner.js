@@ -4,19 +4,19 @@ const Banner = () => {
         <div className="banner">
           <div className="container">
             <div className="banner-content text-center text-white">
-              <h1 className="fw-bold">
-                <big>Find Next Place To Visit</big>
+              <h1>
+               Find Next Place To Visit
               </h1>
-              <p className="h4">Discover amzaing places at exclusive deals</p>
+              <p className="">Discover amzaing places at exclusive deals</p>
             </div>
             <div className="form-outer">
-              <form>
-                <div className="row mt-5 gx-0">
-                  <div className="form-fields first-wrap col-lg-3 col-md-4 col-sm-12">
+              <form className="align-center">
+                <div className="row mt-2 gx-1">
+                  <div className="form-fields first-wrap col-lg-3 col-md-3 col-sm-12">
                     <input id="search" type="text" placeholder="Keywords" />
                     {/* <i class="bi bi-search"></i> */}
                   </div>
-                  <div className="custom-select form-fields second-wrap col-lg-3 col-md-4 col-sm-12">
+                  <div className="custom-select form-fields second-wrap col-lg-3 col-md-3 col-sm-12">
                     <select>
                       <option placeholder="" selected>Destinations</option>
                       <option>Africa Adventure</option>
@@ -26,7 +26,7 @@ const Banner = () => {
                     </select>
                     <span className="custom-arrow"></span>
                   </div>
-                  <div className="custom-select form-fields third-wrap col-lg-3 col-md-4 col-sm-12 ">
+                  <div className="custom-select form-fields third-wrap col-lg-3 col-md-3 col-sm-12 ">
                     <select>
                       <option selected>Durations</option>
                       <option>1 Day Tour</option>
@@ -35,7 +35,7 @@ const Banner = () => {
                     </select>
                     <span className="custom-arrow"></span>
                   </div>
-                  <div className="form-fields fourth-wrap col-lg-3">
+                  <div className="form-fields fourth-wrap col-lg-3 col-md-3 col-sm-12">
                     <button>Search</button>
                   </div>
                 </div>
@@ -44,12 +44,12 @@ const Banner = () => {
           </div>
           <div className="banner-description">
             <div className="row">
-              <div className="col-lg-4">
-                <div className="row">
-                  <div className="destination-img col-lg-3 col-md-2 col-sm-2">
+              <div className="col-lg-4 col-md-4 col-sm-12 ">
+                <div className="row desitination-banner">
+                  <div className="destination-img col-lg-3 col-md-3 col-sm-2">
                     <img src={require("./images/banner-discription1.png")} alt="discription"></img>
                   </div>
-                  <div className="destination-content col-lg-9 col-md-10 col-sm-10">
+                  <div className="destination-content col-lg-9 col-md-9 col-sm-10">
                     <div>
                       <h4>700+ DESTINATIONS</h4>
                       <h5>
@@ -59,12 +59,12 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="row">
-                  <div className="destination-img col-lg-3 col-lg-2 col-md-2 col-sm-2">
+              <div className="col-lg-4 col-md-4 col-sm-12 ">
+                <div className="row desitination-banner">
+                  <div className="destination-img col-lg-3  col-md-3 col-sm-2">
                     <img src={require("./images/banner-discription2.png")} alt="discription"></img>
                   </div>
-                  <div className="destination-content col-lg-9 col-md-10 col-sm-10">
+                  <div className="destination-content col-lg-9 col-md-9 col-sm-10">
                     <div>
                       <h4>BEST PRICE GUARANTEE</h4>
                       <h5>Price match within 48 hours of order confirmation</h5>
@@ -72,12 +72,12 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="row">
-                  <div className="destination-img col-lg-3 col-md-2 col-sm-2">
+              <div className="col-lg-4 col-md-4 col-sm-12 ">
+                <div className="row desitination-banner">
+                  <div className="destination-img col-lg-3 col-md-3 col-sm-2">
                     <img src={require("./images/banner-discription3.png")}alt="discription"></img>
                   </div>
-                  <div className="destination-content col-lg-9 col-md-10 col-sm-10">
+                  <div className="destination-content col-lg-9 col-md-9 col-sm-10">
                     <div>
                       <h4>TOP NOTCH SUPPORT</h4>
                       <h5>

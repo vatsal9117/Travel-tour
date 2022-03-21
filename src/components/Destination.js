@@ -13,13 +13,13 @@ const Destination = () => {
         </div>
         <div className="destination-cards container">
           <div className="row">
-            <div className="col-lg-9 col-md-9 col-sm- 12 destination-card-1">
+            <div className="col-lg-9 col-md-9 col-sm- 12 destination-card">
               <div className="ui-card">
                 <img
                   src={require("./images/Destination1.jpg")}
                   className="img-fluid" alt="destination1"
                 ></img>
-                <button className="destination-button">3 Hours</button>
+                <label className="destination-button">3 Hours</label>
                 <div className="description">
                   <h3>Western Europe</h3>
   
@@ -32,15 +32,14 @@ const Destination = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3  col-md-3 col-sm-12 destination-card-2">
+            <div className="col-lg-3  col-md-3 col-sm-12 destination-card">
               <div className="ui-card">
                 <img
                   src={require("./images/Destination2.jpg")}
-                  className="img-fluid"
-                  height={200} alt="destination1"
+                  className="img-fluid" alt="destination1"
                 ></img>
-                <button className="destination-button">2 Hours</button>
-                <div className="description">
+                <label className="destination-button">2 Hours</label>
+                <div className="description1">
                   <h3>Scandinavia</h3>
                   <p>
                     Far far away, behind the word mountains, far from the
@@ -52,13 +51,13 @@ const Destination = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm- 12 destination-card-3 mt-3">
+              <div className="col-lg-4 col-md-4 col-sm- 12 destination-card mt-3">
                 <div className="card rounded-0 border-0">
                   <img alt="destination1"
                     src={require("./images/Destination5.jpg")}
                     className="img-fluid"
                   ></img>
-                  <button className="destination-button">5 Hours</button>
+                  <label className="destination-button">5 Hours</label>
                   <div className="description">
                     <h3>Western Europe</h3>
   
@@ -71,13 +70,13 @@ const Destination = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4  col-md-4 col-sm-12 destination-card-4 mt-3">
+              <div className="col-lg-4  col-md-4 col-sm-12 destination-card mt-3">
                 <div className="card rounded-0 border-0">
                   <img alt="destination1"
                     src={require("./images/Destination3.jpg")}
                     className="img-fluid"
                   ></img>
-                  <button className="destination-button">4 Hours</button>
+                  <label className="destination-button">4 Hours</label>
                   <div className="description">
                     <h3>Scandinavia</h3>
                     <p>
@@ -89,10 +88,10 @@ const Destination = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4  col-md-4 col-sm-12 destination-card-5 mt-3">
+              <div className="col-lg-4  col-md-4 col-sm-12 destination-card mt-3">
                 <div className="card rounded-0 border-0">
                   <img src={require("./images/Destination4.jpg")} alt="destination1"></img>
-                  <button className="destination-button">2 Hours</button>
+                  <label className="destination-button">2 Hours</label>
                   <div className="description">
                     <h3>Scandinavia</h3>
                     <p>

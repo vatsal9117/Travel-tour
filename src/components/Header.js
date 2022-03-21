@@ -5,58 +5,60 @@ import {
     FaTwitter,
     FaUserAlt,
   } from "react-icons/fa";
-  import { HiOutlineMail } from "react-icons/hi";
+  import { HiOutlineMail, HiOutlineLockClosed } from "react-icons/hi";
   import { GrFacebookOption } from "react-icons/gr";
-  import { AiOutlineLock } from "react-icons/ai";
   
   const Header = () => {
     return (
-      <header className="container-fluid">
-        <div className="row header">
-          <div className="col-lg-9 col-md-9 col-sm-9 details">
-            <div className="contact-header .d-lg-none">
-              <ul>
-                <i>
-                  <FaPhoneAlt color=" #94999f" size="1.2rem" />
-                  <a href="contact">1.820.3345.33</a>
-                </i>
-                <i>
-                  <HiOutlineMail size="1.2rem" />
-                  <a href="email">contact@traveltourwp.com</a>
-                </i>
-              </ul>
+    
+          <header className="container-fluid header-wrapper">
+            <div className="row header">
+              <div className="col-lg-10 col-md-10 col-sm-6 detalies details">
+                <div className="contact-header .d-lg-none">
+                  <ul>
+                    <i>
+                      <FaPhoneAlt/>
+                      <a href="contact">1.820.3345.33</a>
+                    </i>
+                    <i>
+                      <HiOutlineMail className="email-icon"/>
+                      <a href="email">Contact@TravelTourWP.com</a>
+                    </i>
+                  </ul>
+                </div>
+                <div className="social-Links-header">
+                  <ul>
+                    <i>
+                      <GrFacebookOption/>{" "}
+                    </i>
+                    <i>
+                      <FaFlickr/>
+                    </i>
+                    <i>
+                      <FaGooglePlusG/>
+                    </i>
+                    <i>
+                      <FaTwitter/>
+                    </i>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-2 col-md-2 col-sm-6 detalies log">
+                <div className="loginsign">
+                  <i>
+                <HiOutlineLockClosed/>
+                  </i>
+                  <a href={"/Login"}>Login</a>
+                  <i>
+                    <FaUserAlt  />
+                  </i>
+                  <a  href={"/SignUp"}>Sign Up</a>      
+
+              </div>
+              </div>
             </div>
-            <div className="social-Links-header">
-              <ul>
-                <i>
-                  <GrFacebookOption size="1.2rem" />{" "}
-                </i>
-                <i>
-                  <FaFlickr size="1.2rem" />
-                </i>
-                <i>
-                  <FaGooglePlusG size="1.2rem" />
-                </i>
-                <i>
-                  <FaTwitter size="1.2rem" />
-                </i>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-3 col-sm-3">
-            <div className="loginsign">
-              <i>
-                <AiOutlineLock size="1.2rem" />
-              </i>
-              <a href="login">Login</a>
-              <i>
-                <FaUserAlt size="1.2rem" />
-              </i>
-              <a href="signup">Sign Up</a>
-            </div>
-          </div>
-        </div>
-      </header>
+          </header>
+              
     );
   };
   export default Header;

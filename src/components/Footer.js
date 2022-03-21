@@ -2,8 +2,8 @@ const Footer = () => {
     return (
       <div className="footer-wrapper  container-fluid mt-5 gx-0">
         <div className="footer-upper">
-          <div className="row container">
-            <div className="col-lg-3 col-sm-12 col-md-6 ms">
+          <div className="row container-fluid ">
+            <div className="col-lg-3 col-sm-12 col-md-3 footer-upper-wraper">
               <div className="row call-us">
                 <h3>Call Us</h3>
                 <div className="row">
@@ -15,12 +15,12 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="row call-us info">
-                  <h3>email</h3>
+                  <h3>Email</h3>
                   <p>Ask@traveltheme.com</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-12 col-md-6 about-us">
+            <div className="col-lg-3 col-sm-12 col-md-3 about-us footer-upper-wraper">
               <div className="row">
                 <h3>About Us</h3>
               </div>
@@ -41,9 +41,9 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3  col-md-6 col-sm-12 about-us">
+            <div className="col-lg-3  col-md-3 col-sm-12 about-us footer-upper-wraper">
               <div className="row">
-                <h3>Support Us</h3>
+                <h3>Support</h3>
               </div>
               <div className="row">
                 <ul>
@@ -59,7 +59,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3  col-md-6 col-sm-12 about-us">
+            <div className="col-lg-3  col-md-3 col-sm-12 about-us footer-upper-wraper">
               <div className="row">
                 <h3>Pay Safely With Us</h3>
               </div>
@@ -69,33 +69,31 @@ const Footer = () => {
                   protocol.
                 </p>
               </div>
-              <div className="row">
-                <img src={require("./images/visa.png")} alt=""></img>
+              <div className="row  visa">
+                <img src={require("./images/visa.png")} alt="" className="img-fluid"></img>
               </div>
             </div>
           </div>
         </div>
         <div className="footer-lower container-fluid">
-          <footer>
-            <div className="row">
-              <div className="col p3">
-                <p>© 2019 Travel Tour All Rights Reserved.</p>
-              </div>
-              <div className=" footer-icons col p-3">
-                <div className="row footer-icon-row m-0  ">
-                  <div className="col-lg-4 col-md-4 col-sm-4">
+          <div className="p3">
+              <p>© 2019 Travel Tour All Rights Reserved.</p>
+          </div>
+          <div className=" footer-icons">
+            <div className="row footer-icon-row m-0  ">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                     <p>Follow Us</p>
                   </div>
-                  <div className="col-1">
+                  <div className="col-1 ms-1">
                     <i className="bi bi-facebook"></i>
                   </div>
-                  <div className="col-1">
+                  <div className="col-1 ms-1">
                     <i className="bi bi-twitter"></i>
                   </div>
-                  <div className="col-1">
+                  <div className="col-1 ms-1">
                     <i className="bi bi-linkedin"></i>
                   </div>
-                  <div className="col-1">
+                  <div className="col-1 ms-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -120,10 +118,8 @@ const Footer = () => {
                     </svg>
                   </div>
                 </div>
-              </div>
+              </div>  
             </div>
-          </footer>
-        </div>
       </div>
     );
   };
