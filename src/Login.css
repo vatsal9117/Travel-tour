@@ -1,0 +1,256 @@
+.login-heading{
+    border-color: #e1e1e1;
+    background-image: url(https://demo.goodlayers.com/traveltour/main4/wp-content/uploads/2019/04/page-title.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px ;
+}
+.centered1{
+    position: absolute;
+    text-align: center;
+    font-size: 54px;
+    color: #ffffff;
+    font-family:'Arca Majora 3', sans-serif;
+    line-height: 1.2;
+    font-weight: 800;   
+    margin-top: 100px;
+    margin-left: 750px;
+    margin-right: auto;
+}
+.login-form{
+   margin-top: 50px;
+}
+label{
+    margin-bottom:17px;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+}
+input{
+    display: block;
+    width: 100%;
+    border-color: #e5e5e5;
+    background: #ffffff;
+    color: #545454;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 13px;
+    height: 48px;
+    padding: 12px 17px;
+}
+.signin{
+    margin-left: 10px;
+    width: 98.5%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #f97150;
+    border-color: #f97150;
+    color:#ffffff;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 12px 17px;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+}
+.forget{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: #f97150;
+}
+
+.forget:hover{
+    color: #f97150;
+}
+.ikon1{
+    background-color: #1877F2;
+    display: flex;
+    width: 25%;
+    cursor: pointer;
+    vertical-align: top;
+    border-radius: 4px;
+    height: 40px;
+}
+.ikon2{
+    background-color: #dc4e41;
+    display: flex;
+    width: 25%;
+    cursor: pointer;
+    vertical-align: top;
+    border-radius: 4px;
+    height: 40px;
+}
+.ikon3{
+    background-color: #4ab3f4;
+    display: flex;
+    width: 25%;
+    cursor: pointer;
+    vertical-align: top;
+    border-radius: 4px;
+    height: 40px;
+}
+.i{
+    position: relative;
+}
+.i svg{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.p{
+    color: #ffffff;
+    margin-left: 20px;
+    display:inline-block;
+}
+.p p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.facebook a{
+    text-decoration: none;
+}
+.google a{
+    text-decoration:  none;
+}
+.twitter a{
+    text-decoration: none;
+}
+.register-links{
+    margin-bottom: 30px;
+}
+.Create-member{
+    border-top: 1px solid;
+    border-color: #e1e1e1;
+    text-align: center;
+}
+.Create-member h5{
+    margin-top: 30px;
+    color: #0e0e0e;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-family:'Arca Majora 3', sans-serif;
+}
+.Create-member a{
+    text-decoration: none;
+    color: #f97150;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+@media(max-width: 1199px) {
+    .centered1{
+        margin-left: 550px;
+    }
+    .ikon1{
+        width: 25%;
+    }
+    .ikon2{
+        width: 25%;
+    }
+    .ikon3{
+        width: 25%;
+    }
+}   
+ @media(max-width: 991px) {
+    .centered1{
+        margin-left: 450px;
+        margin-right: auto;
+    }
+    .ikon1{
+        width: 35%;
+    }
+    .ikon2{
+        width: 35%;
+    }
+    .ikon3{
+        width: 35%;
+    }
+ }
+ @media(max-width: 891px) {
+    .centered1{
+        margin-left: 375px;
+        margin-right: auto;
+    }
+ }
+ @media(max-width: 791px) {
+     .centered1{
+    margin-left: 300px;
+    margin-right: auto;
+     }
+}
+@media(max-width:767px){
+    .ikon1{
+        width: 45%;
+    }
+    .ikon2{
+        width: 45%;
+    }
+    .ikon3{
+        width: 45%;
+    }
+}
+@media(max-width: 691px) {
+.centered1{
+   margin-left: 250px;
+   margin-right: auto;
+}
+}
+ @media(max-width: 591px) {
+    .centered1{
+        margin-left: 200px;
+        margin-right: auto;
+     }
+ }
+ @media(max-width:536px){
+    .ikon1{
+        width: 55%;
+    }
+    .ikon2{
+        width: 55%;
+    }
+    .ikon3{
+        width: 55%;
+    }
+}
+ @media(max-width: 491px) {
+    .centered1{
+        margin-left: 150px;
+        margin-right: auto;
+     }
+     .ikon1{
+        width: 65%;
+    }
+    .ikon2{
+        width: 65%;
+    }
+    .ikon3{
+        width: 65%;
+    }
+ }
+ @media(max-width: 391px) {
+    .centered1{
+        margin-left: 100px;
+        margin-right: auto;
+     }
+     .ikon1{
+        width: 100%;
+    }
+    .ikon2{
+        width: 100%;
+    }
+    .ikon3{
+        width: 100%;
+    }
+ }
