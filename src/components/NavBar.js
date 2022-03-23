@@ -4,29 +4,27 @@ import { Nav, Navbar } from "react-bootstrap";
 
 const NavBar = () => {
   return (
-    <div className="navbar container">
-      <Navbar bg="white" sticky="top" expand="sm" collapseOnSelect>
-        <Navbar.Brand>
+    <div className="navbar container-fluid">
+      <Navbar bg="white" sticky="top" expand="md" collapseOnSelect clss>
+        <Navbar.Brand> 
           <a href="abc">
-            <img className="img-fluid" src={require("./images/mainlogo.jpg")} alt="logo" />
+            <img className="" src={require("./images/mainlogo.jpg")} alt="logo"  width="250" height="70"/>
           </a>
         </Navbar.Brand>
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse className="collapse">
           <Nav>
-            <Nav.Link href="home">HOME</Nav.Link>
-            <Nav.Link href="pages">PAGES</Nav.Link>
-            <Nav.Link href="tour-list">TOUR LIST</Nav.Link>
-            <Nav.Link href="tour-search">TOUR SEARCH</Nav.Link>
-            <Nav.Link href="destination">DESTINATION</Nav.Link>
-            <Nav.Link href="tour-list">DATEPRICE</Nav.Link>
-            <Nav.Link href="blog">BLOG</Nav.Link>
+            <Nav.Link href="home" className="nav-links">HOME</Nav.Link>
+            <Nav.Link href="pages" className="nav-links">PAGES</Nav.Link>
+            <Nav.Link href="tour-list" className="nav-links">TOUR LIST</Nav.Link>
+            <Nav.Link href="tour-search" className="nav-links">TOUR SEARCH</Nav.Link>
+            <Nav.Link href="destination" className="nav-links">DESTINATION</Nav.Link>
+            <Nav.Link href="tour-list" className="nav-links">DATEPRICE</Nav.Link>
+            <Nav.Link href="blog" className="nav-links">BLOG</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <a href="search">
-          <i className="search">
-            <HiOutlineSearch />
-          </i>
+        <i className="bi bi-search"></i>
         </a>
       </Navbar>
     </div>

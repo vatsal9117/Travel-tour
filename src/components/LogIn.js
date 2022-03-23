@@ -1,25 +1,75 @@
 import '../Login.css';
-const LogIn = () => {
-    return ( 
-        <div className="login-wrapper">
+import React, {useState} from 'react';
+import { form, Alert } from "react-bootstrap";
+class LogIn extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      username:'',
+      email:'',
+      password:'',
+      error:true
+    }
+  }
+
+  onChangeusername = (e) =>{
+    this.setState({name:e.target.value})
+  }
+
+  onChangeemail = (e) =>{
+    this.setState({email:e.target.value})
+  }
+
+  onSubmit = (e) =>{
+    let { history } = this.props
+    let ele;
+    e.preventDefault()
+    let olddata = localStorage.getItem('formdata')
+    let oldArr = JSON.parse(olddata)
+    oldArr.map(arr => 
+      {
+        if(this.state.email.length > 0 && this.state.password.length > 0){
+          if (arr.email == this.state.email && (arr.password == this.state.password)) {
+            console.log("log in succesfully")
+            history.push({ pathname: "/welcome", user: this.state.email });
+          }else{
+            this.setState({error:true})
+          }
+        }
+      }
+      )
+  }
+  
+  onChangepassword = (e) =>{
+    this.setState({password:e.target.value})
+  }
+
+  render() {
+    
+    return (     <div className="login-wrapper">
            <div className="login-heading">
-               <h3 class="centered1">Login</h3>
+               <h3 className="centered1">Login</h3>
             </div>
             <div className="login-form container">
-                <form>
+                <form LogIn>
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12 form-field">
                             <label>Username or E-Mail</label>
-                            <input type="email" className="username"></input>
+                            <input type="email" className="username" name='email'  value={this.state.email} onChange={this.onChangeemail}></input>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-field">
                             <label>Password</label>
-                            <input type="password" className="username"></input>
+                            <input type="password" name='password' className="password" value={this.state.password} onChange={this.onChangepassword}></input>
                         </div>
                     </div>
                     <div className="row">
-                    <input type="submit" className="signin"  value="Sign In!"/>
+                    <input type="submit" className="signin"  value="Sign In!" />
                          <a href="pass" className='forget'>Forget Password?</a>
+                    </div>
+                    <div className='row'>
+                    <p className="error">
+                        {this.state.error}
+                    </p>
                     </div>
                 </form>
                 <div className="register-links">
@@ -72,7 +122,9 @@ const LogIn = () => {
                 </div>
               </div>
         </div>
-     );
+     
+    );
+   }
 }
  
 export default LogIn;

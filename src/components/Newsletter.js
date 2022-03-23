@@ -1,38 +1,38 @@
 const Newsleter = () => {
     return (
       <div className="container-fluid news-letter">
-        <div className="row container-fluid">
-          <div className="col-lg-8 col-md-12 col-sm-12">
+        <div className="row container-fluid gx-0">
+          <div className="col-lg-8 col-md-7 col-sm-12">
             <div className="row heading">
               <h4>Browse Tour By Category</h4>
             </div>
-            <div className="row container p-2">
-              <div className="col-lg-6 col-md-6 links col-sm-12 ">
-                <a href="abc">Outdoor Activites</a>
-                <br></br> <a href="abc">Cultural & Thematic Tours</a>
-                <br></br> <a href="abc">Family Friendly Tours</a>
-                <br></br> <a href="abc">Holiday & Seasonal Tours</a>
+            <div className="row container-fluid p-2">
+              <div className="col-lg-6 col-md-6 links col-sm-12 mt-2">
+                <a href="abc" className="mt-2">Outdoor Activites</a>
+               <a href="abc" className="mt-2">Cultural & Thematic Tours</a>
+               <a href="abc" className="mt-2">Family Friendly Tours</a>
+               <a href="abc" className="mt-2">Holiday & Seasonal Tours</a>
               </div>
               <div className="col-lg-6 col-md-6 links col-sm-12">
-                <a href="abc">City Tours</a>
-                <br></br> <a href="abc">Indulgence & Luxary Tours</a>
-                <br></br> <a href="abc">Relaxation Tours</a>
-                <br></br> <a href="abc">Wild & Adventure Tours</a>
+                <a href="abc" className="mt-2">City Tours</a>
+               <a href="abc" className="mt-2">Indulgence & Luxary Tours</a>
+               <a href="abc" className="mt-2">Relaxation Tours</a>
+               <a href="abc" className="mt-2">Wild & Adventure Tours</a>
               </div>
             </div>
           </div>
-          <div className=" newsletter col-lg-4 col-md-6 col-sm-12">
+          <div className=" newsletter col-lg-4 col-md-3  col-sm-12">
             <div className="row newsletter-heading">
               <h4>Newsletter</h4>
             </div>
             <div className="row mt-3 subscription">
               <h6 className="">Subscribe for updates & promotions</h6>
               <div className="row mt-3 gx-0">
-                <div className="col-lg-6 newsform">
-                  <input type="" name="" defaultValue="Your Email Address"></input>
+                <div className="col-lg-8 newsform">
+                  <input type="email" name="" defaultValue="Your Email Address"></input>
                 </div>
-                <div className="col-lg-6 newsform ">
-                  <button>Submit</button>
+                <div className="col-lg-4 newsform">
+                  <input type="submit" className="submit"  value="SUBSCRIBE"/>
                 </div>
               </div>
             </div>

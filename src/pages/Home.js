@@ -14,18 +14,18 @@ const Home = () => {
   return (
     <div className="Home">
       <Header />
-      <NavBar />
+       <NavBar />
       <Banner />
       <Destination />
-      <Tours />
+       <Tours />
       {/* <Discount /> */}
       <Recommend />
       <Travel />
-      <Review />
-      <Newsleter />
-      <Recent />
-      <Feature />
-      <Footer />
+       <Review />
+     <Newsleter />
+     <Recent />
+       <Feature />
+       <Footer />
     </div>
   );
 };

@@ -20,7 +20,7 @@ const Review = () => {
         items: 1,
       },
       700: {
-        items: 1,
+        items: 2,
       },
       900: {
         items: 2,
@@ -32,7 +32,7 @@ const Review = () => {
   };
   return (
     <div className=" container review-wraper">
-      <div className="review-header text-center">
+      <div className="review-header container-fluid text-center">
         <h3>Customer Reviews</h3>
       </div>
       <div className="review-card-carousel">

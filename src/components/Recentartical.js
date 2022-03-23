@@ -12,8 +12,8 @@ const Recent = () => {
           </a>
         </div>
         <div className="artical-cards container">
-          <div className="row mt-5">
-            <div className="col-lg-4 col-md-4 col-sm-12 artical-card mt-2 d-sm-block">
+          <div className="row">
+            <div className="col-lg-4 col-md-4 col-sm-12 artical-card">
               <div className="card border-0 rounded-0">
                 <img
                   className="card-img"
@@ -23,12 +23,12 @@ const Recent = () => {
                 <div className="card-img-overlay">
                   <h3>How to travel with paper map</h3>
                   <p className="card-text">
-                    June 6, 2016  • John Smith
+                    June 6, 2016  &nbsp; • &nbsp; John Smith
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-12 artical-card mt-2 d-sm-block">
+            <div className="col-lg-4 col-md-4 col-sm-12 artical-card d-sm-block">
               <div className="card border-0 rounded-0">
                 <img
                   className="card-img"
@@ -38,12 +38,12 @@ const Recent = () => {
                 <div className="card-img-overlay">
                   <h3>How to travel with paper map</h3>
                   <p className="card-text">
-                    June 6, 2016  • John Smith
+                    June 6, 2016 &nbsp;  • &nbsp; John Smith
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-12 artical-card mt-2 d-sm-block">
+            <div className="col-lg-4 col-md-4 col-sm-12 artical-card d-sm-block">
               <div className="card border-0 rounded-0">
                 <img
                   className="card-img"
@@ -53,7 +53,7 @@ const Recent = () => {
                 <div className="card-img-overlay">
                   <h3>How to travel with paper map</h3>
                   <p className="card-text">
-                    June 6, 2016  • John Smith
+                    June 6, 2016 &nbsp;  • &nbsp; John Smith
                   </p>
                 </div>
               </div>

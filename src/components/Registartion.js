@@ -1,13 +1,108 @@
 import '../Register.css'
 import '../Login.css'
-const Registartion = () => {
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import React, {useState} from 'react';
+import { Form, Alert } from "react-bootstrap";
+import { clear } from '@testing-library/user-event/dist/clear';
+
+class Registartion extends React.Component  {
+  constructor(props){
+    super(props);
+    this.state = {
+      username:"",
+      password:"",
+      cpassword:"",
+    fname:"",
+    lname:"",
+    date:"",
+    month:"",
+    year:"",
+    email:"",
+    phone:"",
+    country:"",
+    checked:false
+  }
+}
+onChangeusername = (e) =>{
+  this.setState({username:e.target.value})
+}
+
+onChangepassword = (e) =>{
+  this.setState({password:e.target.value})
+}
+
+onChangecpassword = (e) =>{
+  this.setState({cpassword:e.target.value})
+}
+
+onChangefname= (e) =>{
+  this.setState({fname:e.target.value})
+}
+onChangelname= (e) =>{
+  this.setState({lname:e.target.value})
+}
+onChangedate= (e) =>{
+  this.setState({date:e.target.value})
+}
+onChangemonth= (e) =>{
+  this.setState({month:e.target.value})
+}
+onChangeyear= (e) =>{
+  this.setState({year:e.target.value})
+}
+onChangeemail= (e) =>{
+  this.setState({email:e.target.value})
+}
+onChangephone= (e) =>{
+  this.setState({phone:e.target.value})
+}
+onChangecountry= (e) =>{
+  this.setState({country:e.target.value})
+}
+onChangechecked= (e) =>{
+  this.setState({checked:e.target.value})
+}
+onSubmit = (e) =>{
+  let ob = {
+    username: this.state.username,
+    password:this.state.password,
+    cpassword:this.state.cpassword,
+    fname:this.state.fname,
+    lname:this.state.lname,
+    date:this.state.date,
+    month:this.state.month,
+    year:this.state.year,
+    email:this.state.email,
+    phone:this.state.phone,
+    country:this.state.country,
+    checked:this.state.checked
+  }
+  let olddata = localStorage.getItem('formdata');
+  if(olddata==null){
+    olddata = []
+    console.log("created new")
+    olddata.push(ob)
+    localStorage.setItem('formdata', JSON.stringify(olddata));
+  }else{
+    let oldArr = JSON.parse(olddata)
+    oldArr.push(ob)
+    localStorage.setItem("formdata", JSON.stringify(oldArr))
+    console.log(oldArr,'pushed in existing')
+  }
+}
+ render(){
     return (
       <div className="signup-wrapper">
         <div className="signup-img">
           <div className='centered1'>Register</div>
         </div>
         <div className="signup-form container">
-          <form>
+          <form onSubmit={this.onSubmit}>
+          {/* {flag && (
+                <Alert className='alert' color="white" bg-color="red" >
+                  Please fill all required fields.
+                </Alert>
+              )} */}
               <small>
                 After creating an account, you'll be able to track your payment
                 status, track the confirmation and you can also rate the tour
@@ -20,20 +115,20 @@ const Registartion = () => {
                         <label>
                           Username<span>*</span>
                         </label>
-                      <input type="text" id="username"className="username" />
+                      <input type="text"  name='username' id="username"className="username" value={this.state.username} onChange={this.onChangeusername} />
                     </div>
                   </div>
                     <div className="row form-field">
                       <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="password-field">
                           <label> Password<span>*</span></label>
-                          <input type="password" id="password" className="password"/>
+                          <input type="password" name='password'  value={this.state.password} onChange={this.onChangepassword} id="password" className="password"/>
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6 col-sm-12">
                           <div className="cpassword-field">
                             <label>  Confirm Password<span>*</span></label>
-                            <input type="password" id="cpassword" className="cpassword"></input>
+                            <input type="password" name='cpassword'  id="cpassword" className="cpassword"  value={this.state.cpassword} onChange={this.onChangecpassword} />
                           </div>
                       </div>
                     </div>
@@ -43,7 +138,7 @@ const Registartion = () => {
                           <label>
                              First Name<span>*</span>
                           </label>
-                          <input type="text" id="fname" className="fname"></input>
+                          <input type="text" name='fname'  id="fname" className="fname"  value={this.state.fname} onChange={this.onChangefname} ></input>
                         </div>
                         </div>
                          <div className="col-lg-6 col-sm-6 col-md-6">
@@ -51,7 +146,7 @@ const Registartion = () => {
                             <label>
                               Last Name<span>*</span>
                             </label>
-                             <input type="text" id="lname" className="lname"></input>
+                             <input type="text" id="lname"  name='lname' className="lname"  value={this.state.lname} onChange={this.onChangelname}></input>
                           </div>
                         </div>
                       </div>
@@ -62,7 +157,7 @@ const Registartion = () => {
                         Birth Date<span>*</span>
                       </label>
                       <div className="birthdate" id="birthdate">
-                        <select className="date" id="date" datatype="date">
+                        <select className="date" id="date" name='date' datatype="date"  value={this.state.date} onChange={this.onChangedate}>
                           <option value="date">Date</option>
                           <option value="1">1</option>
                           <option value="2">2</option>
@@ -97,10 +192,8 @@ const Registartion = () => {
                           <option value="31">31</option>
                         </select>
                         <span className='custom-arrow'></span>
-                        <select className="month" id="moth" datatype="month">
-                          <option value="" selected="">
-                            Month
-                          </option>
+                        <select className="month" id="moth" name='month'  datatype="month"   value={this.state.month} onChange={this.onChangemonth}>
+                          <option value="month">  Month </option>
                           <option value="1">January</option>
                           <option value="2">February</option>
                           <option value="3">March</option>
@@ -115,8 +208,8 @@ const Registartion = () => {
                           <option value="12">December</option>
                         </select>
                         <span className='custom-arrow'></span>
-                        <select type="text" data-type="year">
-                          <option value="" selected="">
+                        <select type="text" name='year' data-type="year"  value={this.state.year} onChange={this.onChangeyear}>
+                          <option value="" selected="" >
                             Year
                           </option>
                           <option value="2022">2022</option>
@@ -254,7 +347,7 @@ const Registartion = () => {
                         <label>
                             Email<span>*</span>
                         </label>
-                        <input type="email" id="email" className="email"></input>
+                        <input type="email" name='email' id="email" className="email"  value={this.state.email} onChange={this.onChangeemail}/>
                         </div>
                     </div>
                 </div>
@@ -264,7 +357,7 @@ const Registartion = () => {
                       <label>
                         Phone<span>*</span>
                       </label>
-                      <input type="tel" id="phone" className="phone"></input>
+                      <input type="tel" name='phone'  id="phone" className="phone"  value={this.state.phone} onChange={this.onChangephone}/>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-6 col-md-6">
@@ -276,7 +369,7 @@ const Registartion = () => {
                         name="country"
                         className="country"
                         id="country"
-                        data-required=""
+                        data-required=""   value={this.state.country} onChange={this.onChangecountry}
                       >
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Albania">Albania</option>
@@ -367,7 +460,7 @@ const Registartion = () => {
                         <option value="Honduras">Honduras</option>
                         <option value="Hungary">Hungary</option>
                         <option value="Iceland">Iceland</option>
-                        <option value="India">India</option>
+                        <option value="India" selected>India</option>
                         <option value="Indonesia">Indonesia</option>
                         <option value="Iran">Iran</option>
                         <option value="Iraq">Iraq</option>
@@ -564,15 +657,21 @@ const Registartion = () => {
                 </div>
                 <div className="row form-field">
                   <div className="terms">
-                    <input type="checkbox"></input>
+                    <input type="checkbox" name='checked' value={this.state.checked} onChange={this.onChangechecked}></input>
                       <span>* Creating an account means you're okay with
                       our <a href="trems">Terms of Service</a> and{" "}
                       <a href="privacy">Privacy Statement</a>.</span> 
+                      {/* {flag1 && (
+                <Alert color="white" className='alert' bg-color="red" >
+                  Please agree to all the terms and conditions before proceeding to the next step
+                </Alert>
+              )} */}
                   </div>
                 </div>
                 <div className="row">
-                <input type="submit" className="signup-button"  value="signup"/>
+                  <input type="submit" className="signup-button"  value="signup" />
                 </div>
+              
                   </div>
               </div>
           </form>
@@ -626,8 +725,9 @@ const Registartion = () => {
           </div>
         </div>
       </div>
-    );
-  };
+      )
+    }
+  }
   
   export default Registartion;
   
