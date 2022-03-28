@@ -1,6 +1,7 @@
 import { HiOutlineSearch } from "react-icons/hi";
 import "bootstrap/dist/css/bootstrap.css";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar,NavLink } from "react-bootstrap";
+
 
 const NavBar = () => {
   return (
@@ -14,19 +15,17 @@ const NavBar = () => {
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse className="collapse">
           <Nav>
-            <Nav.Link href="home" className="nav-links">HOME</Nav.Link>
-            <Nav.Link href="pages" className="nav-links">PAGES</Nav.Link>
-            <Nav.Link href="tour-list" className="nav-links">TOUR LIST</Nav.Link>
-            <Nav.Link href="tour-search" className="nav-links">TOUR SEARCH</Nav.Link>
-            <Nav.Link href="destination" className="nav-links">DESTINATION</Nav.Link>
-            <Nav.Link href="tour-list" className="nav-links">DATEPRICE</Nav.Link>
-            <Nav.Link href="blog" className="nav-links">BLOG</Nav.Link>
+            <NavLink  exact to={"/"} className="nav-links" activeClassName="selected">HOME</NavLink>
+            <NavLink to="pages" className="nav-links">PAGES</NavLink>
+            <NavLink to="tour-list" className="nav-links">TOUR LIST</NavLink>
+            <NavLink to="tour-search" className="nav-links">TOUR SEARCH</NavLink>
+            <NavLink  to={"/Destination"} className="nav-links"  activeClassName="selected">DESTINATION</NavLink>
+            <NavLink to="tour-list" className="nav-links">DATEPRICE</NavLink>
+            <NavLink to="blog" className="nav-links">BLOG</NavLink>
           </Nav>
         </Navbar.Collapse>
         <a href="search">
-          <i>
-            <HiOutlineSearch />
-          </i>
+        <i className="bi bi-search"></i>
         </a>
       </Navbar>
     </div>

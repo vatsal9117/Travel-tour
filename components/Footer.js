@@ -3,9 +3,6 @@ const Footer = () => {
       <div className="footer-wrapper  container-fluid mt-5 gx-0">
         <div className="footer-upper">
           <div className="row container-fluid ">
-            <div className="">
-              
-            </div>
             <div className="col-lg-3 col-sm-12 col-md-3 footer-upper-wraper">
               <div className="row call-us">
                 <h3>Call Us</h3>
@@ -79,14 +76,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-lower container-fluid">
-          <footer>
-            <div className="row">
-              <div className="col p3">
-                <p>© 2019 Travel Tour All Rights Reserved.</p>
-              </div>
-              <div className=" footer-icons col">
-                <div className="row footer-icon-row m-0  ">
-                  <div className="col-lg-4 col-md-4 col-sm-4">
+          <div className="p3">
+              <p>© 2019 Travel Tour All Rights Reserved.</p>
+          </div>
+          <div className=" footer-icons">
+            <div className="row footer-icon-row m-0  ">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                     <p>Follow Us</p>
                   </div>
                   <div className="col-1 ms-1">
@@ -123,10 +118,8 @@ const Footer = () => {
                     </svg>
                   </div>
                 </div>
-              </div>
+              </div>  
             </div>
-          </footer>
-        </div>
       </div>
     );
   };
