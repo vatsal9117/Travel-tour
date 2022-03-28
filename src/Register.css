@@ -1,0 +1,173 @@
+.signup-img{
+    border-color: #e1e1e1;
+    background-image: url(https://demo.goodlayers.com/traveltour/main4/wp-content/uploads/2019/04/page-title.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px ;
+}
+.centered1{
+    position:absolute;
+    text-align: center;
+    font-size: 54px;
+    color: #ffffff;
+    font-family:'Arca Majora 3', sans-serif;
+    line-height: 1.2;
+    font-weight: 800;   
+    margin-top: 110px;
+    margin-left: 550px;
+    margin-right: auto;
+}
+.signup-form{
+    margin-top: 50px;
+}
+.signup-form small{
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    color: #8c8c8c;
+    font-family: "Poppins", sans-serif;
+}
+.username-field{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.username-field input{
+    width: 97.5%;
+    font-family: "Poppins", sans-serif;
+}
+.form-field{
+    margin-bottom: 25px;
+
+}
+.birthdate select{
+    width: 25%;
+    margin-left: 0px;
+    border-color: #e5e5e5;
+    padding: 20px;
+    color: #545454;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 3px;
+    border: 2px solid  #e5e5e5;
+    font-family: "Poppins", sans-serif;
+}
+.country{
+    width: 100%;
+    margin-left: 0px;
+    border-color: #e5e5e5;
+    padding: 20px;
+    color: #545454;
+    height: 49px;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 2px solid  #e5e5e5;
+    display: block;
+    font-family: "Poppins", sans-serif;
+}
+.terms{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.terms a{
+   color: #f97150;
+    text-decoration: none;
+}
+.terms input{
+    height: 15px;
+    margin-right: 10px;
+    display: inline;
+    width: 1%;
+}
+.signup-button{
+    margin-left: 10px;
+    width: 98.5%;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #f97150;
+    border-color: #f97150;
+    color:#ffffff;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 12px 17px;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 40px;
+}
+.member-login{
+    border-top: 1px solid;
+    border-color: #e1e1e1;
+    text-align: center;
+}
+.member-login h5{
+    margin-top: 30px;
+    color: #0e0e0e;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-family:'Arca Majora 3', sans-serif;
+}
+.member-login a{
+    text-decoration: none;
+    color: #f97150;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+.error{
+    color: white;
+     background: #ba4a4a;
+     font-family: "Poppins", sans-serif;
+     font-size: 13px;
+}
+@media(max-width: 1199px) {
+    .centered1{
+        margin-left: 550px;
+    }
+}   
+ @media(max-width: 991px) {
+    .centered1{
+        margin-left: 450px;
+        margin-right: auto;
+    }
+ }
+ @media(max-width: 891px) {
+    .centered1{
+        margin-left: 375px;
+        margin-right: auto;
+    }
+ }
+ @media(max-width: 791px) {
+     .centered1{
+    margin-left: 300px;
+    margin-right: auto;
+     }
+}
+@media(max-width: 691px) {
+.centered1{
+   margin-left: 250px;
+   margin-right: auto;
+}
+}
+ @media(max-width: 591px) {
+    .centered1{
+        margin-left: 200px;
+        margin-right: auto;
+     }
+ }
+ @media(max-width: 491px) {
+    .centered1{
+        margin-left: 150px;
+        margin-right: auto;
+     }
+ }
+ @media(max-width: 391px) {
+    .centered1{
+        margin-left: 100px;
+        margin-right: auto;
+     }
+ }
